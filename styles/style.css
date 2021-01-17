@@ -1,0 +1,144 @@
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  text-transform: capitalize;
+}
+
+.container {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  background-color: white;
+  padding: 20px;
+  width: 210px;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+}
+
+h1,
+h2 {
+  text-align: center;
+}
+
+img {
+  margin: 0 auto;
+}
+
+.types {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  font-size: 15px;
+  font-weight: 600;
+  margin-top: 2px;
+}
+
+.type {
+  width: 100px;
+  padding-bottom: 2px;
+  text-align: center;
+  margin: 0 3px;
+  border: 1px solid black;
+  border-radius: 20px;
+  color: white;
+}
+
+.loading {
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+}
+
+.already-found {
+  position: absolute;
+  right: 5px;
+  top: 5px;
+  width: 15px;
+  height: 15px;
+  background-image: url("../icon.png");
+  background-size: 100% 100%;
+}
+
+.color-bug {
+  background-color: darkgreen;
+}
+
+.color-dark {
+  background-color: #363636;
+}
+
+.color-dragon {
+  background-color: aqua;
+}
+
+.color-electric {
+  background-color: gold;
+}
+
+.color-fairy {
+  background-color: pink;
+}
+
+.color-fighting {
+  background-color: chocolate;
+}
+
+.color-fire {
+  background-color: red;
+}
+
+.color-flying {
+  background-color: lightgrey;
+}
+
+.color-ghost {
+  background-color: #422f42;
+}
+
+.color-grass {
+  background-color: green;
+}
+
+.color-ground {
+  background-color: peru;
+}
+
+.color-ice {
+  background-color: lightblue;
+}
+
+.color-normal {
+  background-color: tan;
+}
+
+.color-poison {
+  background-color: purple;
+}
+
+.color-psychic {
+  background-color: #dd0042;
+}
+
+.color-rock {
+  background-color: saddlebrown;
+}
+
+.color-steel {
+  background-color: silver;
+}
+
+.color-water {
+  background-color: blue;
+}
+/*# sourceMappingURL=style.css.map */

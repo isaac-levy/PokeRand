@@ -1,0 +1,30 @@
+$color-map: (
+    "bug": darkgreen,
+    "dark": rgb(54, 54, 54),
+    "dragon": aqua,
+    "electric": gold,
+    "fairy": pink,
+    "fighting": chocolate,
+    "fire": red,
+    "flying": lightgrey,
+    "ghost": rgb(66, 47, 66),
+    "grass": green,
+    "ground": peru,
+    "ice": lightblue,
+    "normal": tan,
+    "poison": purple,
+    "psychic": rgb(221, 0, 66),
+    "rock": saddlebrown,
+    "steel": silver,
+    "water": blue
+);
+
+@mixin color-classes($map){
+    @each $color, $value in $map {
+        .color-#{$color}{
+            background-color: #{$value};
+        }
+    }
+}
+
+@include color-classes($color-map);
