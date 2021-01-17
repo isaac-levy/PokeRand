@@ -8,7 +8,6 @@ Stack:
 
 Resource:
 - PokeApi (https://pokeapi.co/)
-  - Specific endpoint used: https://pokeapi.co/api/v2/pokemon/${id}
 
 Features:
 - After the PokeRand icon is clicked and the first randomly selected Pokemon has been fetched, users can click the open popup to fetch a new Pokemon.
