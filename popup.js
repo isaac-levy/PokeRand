@@ -1,5 +1,5 @@
 const getPokemon = () => {
-  const rand = Math.floor(Math.random() * 899);
+  const rand = Math.floor(Math.random() * 898) + 1;
 
   chrome.storage.local.get([`${rand}`], (result) => {
     const pokeObj = result[rand];
